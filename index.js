@@ -3,5 +3,5 @@ function updateTheDOM() {
   document.getElementById( "text" )
     .innerHTML = "This is really cool!";
 }
-
-updateTheDOM()
+document.addEventListener( "DOMContentLoaded", function () {
+updateTheDOM()})
