@@ -1,5 +1,7 @@
 
-function updateDOM() {
+function updateTheDOM() {
   document.getElementById( "text" )
     .innerHTML = "This is really cool!";
 }
+
+updateTheDOM()
